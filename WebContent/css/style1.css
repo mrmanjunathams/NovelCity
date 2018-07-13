@@ -1,0 +1,11 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    color:gray;
+}

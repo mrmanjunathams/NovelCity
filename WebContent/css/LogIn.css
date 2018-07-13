@@ -1,0 +1,49 @@
+body  {
+    background-image: url("2.jpg");
+    background-color: #cccccc;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 2% 25% 2% 25%;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+.button{
+  display: inline-block;
+  width: 100px;
+  padding: 7px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+border-radius: 9px;
+  text-decoration: auto;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+.button:hover,
+.button:active {
+  color: black;
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}

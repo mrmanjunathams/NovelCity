@@ -1,0 +1,25 @@
+body  {
+    background-image:url("i2.jpg");
+    background-color: #cccccc;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 2% 25% 2% 25%;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+

@@ -1,0 +1,63 @@
+body {
+    background-color:black;
+}
+
+input[type=text], input[type=password],select,textarea {
+    width: 50%;
+    padding: 0px 25px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing:content-box;
+}
+button {
+    background-color:black;
+   height:38px;
+   
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: black;
+   text-align: center;
+}
+.header{
+    background-color: black;
+    padding:9px;
+    text-align: center;
+}
+.div-1{
+   background-image: url("images/male hands and book.jpg");
+   background-color: #cccccc;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container img {vertical-align: middle;}
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 96%;
+    padding: 20px;
+}
+

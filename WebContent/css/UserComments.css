@@ -1,0 +1,20 @@
+body  {
+    background-image:url("111.jpg");
+    background-color: #cccccc;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 2% 25% 2% 25%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
