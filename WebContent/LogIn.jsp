@@ -31,7 +31,7 @@
 <form action="LogInController" method="post">
   <div class="form-group">
     <label>Username</label>
-    <input type="text" class="form-control" placeholder="enter email" name="name" value="${name}"><p style="color:red">${errors['name_error']}</p>
+    <input type="text" class="form-control" placeholder="enter username" name="name" value="${name}"><p style="color:red">${errors['name_error']}</p>
   </div>
   <div class="form-group">
     <label>Password</label>

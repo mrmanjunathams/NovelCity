@@ -6,6 +6,8 @@ public class downloadModel {
 	private String author_name;
 	private String pub_year;
 	private String message;
+	private String dl;
+	private String rl;
 	public String getName() {
 		return name;
 	}
@@ -35,6 +37,18 @@ public class downloadModel {
 	}
 	public void setMessage(String message) {
 		this.message = message;
+	}
+	public String getDl() {
+		return dl;
+	}
+	public void setDl(String dl) {
+		this.dl = dl;
+	}
+	public String getRl() {
+		return rl;
+	}
+	public void setRl(String rl) {
+		this.rl = rl;
 	}
 
 }

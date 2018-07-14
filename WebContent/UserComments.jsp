@@ -71,7 +71,7 @@
  </div>
             <div class="modal-footer">
             <form action="LogOutController" method="post">
-                <button type="submit" class="btn btn-secondary" style="color:white">Log Out</button>
+                <button type="submit" class="btn btn-secondary" style="color:black">Log Out</button>
                 <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
             </form>
             </div>

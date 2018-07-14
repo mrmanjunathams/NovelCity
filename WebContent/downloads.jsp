@@ -143,8 +143,8 @@ ${temp.pub_year}
 </p>
 </td>
 <td>
-<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span></button>
-<button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-book"></span></button>
+<a href="${temp.dl}" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-download-alt"></span></a>
+<a href="${temp.rl}" class="btn btn-warning" role="button"><span class="glyphicon glyphicon-book"></span></a>
 </td>
 </tr>
 

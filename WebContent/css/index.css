@@ -5,7 +5,7 @@ background-image:url("gray.jpg");
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 img {
     opacity: 0.7;

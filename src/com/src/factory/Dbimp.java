@@ -107,7 +107,8 @@ public class Dbimp implements Dbintr{
 			 d.setLanguage(r.getString(2));
 			 d.setAuthor_name(r.getString(3));
 			 d.setPub_year(r.getString(4));
-			
+			 d.setDl(r.getString(5));
+			 d.setRl(r.getString(6));
 			 download_mod.add(d);
 			
 			  }
@@ -118,7 +119,7 @@ public class Dbimp implements Dbintr{
 	@Override
 	public ArrayList<downloadModel> findNovel(String name) throws SQLException {
 		
-		 PreparedStatement pst=c.prepareStatement("select * from novels where name LIKE '%"+name+"%'");
+		 PreparedStatement pst=c.prepareStatement("select * from novels where NOVEL_NAME LIKE '%"+name+"%'");
 		 ResultSet r=pst.executeQuery();
 		 
 		 ArrayList<downloadModel> download_mod=new ArrayList<downloadModel>();
@@ -128,6 +129,8 @@ public class Dbimp implements Dbintr{
 			 d.setLanguage(r.getString(2));
 			 d.setAuthor_name(r.getString(3));
 			 d.setPub_year(r.getString(4));
+			 d.setDl(r.getString(5));
+			 d.setRl(r.getString(6));
 			 download_mod.add(d);
 			
 			  }

@@ -13,8 +13,11 @@ input[type=text], input[type=password],select,textarea {
     border: 1px solid #ccc;
     box-sizing:content-box;
 }
+body {
+background-color: white;
+}
 button {
-    background-color:black;
+    background-color: black;
    height:38px;
    
 }
@@ -39,7 +42,7 @@ button:hover {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body style="">
 <div class="navbar navbar-inverse">
 
 <div class="navbar-header">
