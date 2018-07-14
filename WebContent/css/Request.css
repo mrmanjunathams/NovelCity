@@ -1,6 +1,9 @@
 body  {
     background-image:url("i2.jpg");
     background-color: #cccccc;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
 }
 
 .imgcontainer {

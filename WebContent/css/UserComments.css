@@ -1,6 +1,9 @@
 body  {
     background-image:url("111.jpg");
     background-color: #cccccc;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
 }
 
 .imgcontainer {
