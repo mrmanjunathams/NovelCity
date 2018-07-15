@@ -14,9 +14,6 @@ import com.src.factory.Factory;
 import com.src.model.Model;
 import com.src.model.downloadModel;
 
-/**
- * Servlet implementation class downloadController
- */
 @WebServlet("/downloadController")
 public class downloadController extends HttpServlet {
 	private static final long serialVersionUID = 1L;

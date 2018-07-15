@@ -1,0 +1,21 @@
+Users Table:
+Create table users(name varchar2(200) primary key,email varchar2(250),phone varchar2(15),gender varchar2(10),password varchar2(50));
+
+Novels Table:
+Create table novels(novel_name varchar2(250),language varchar2(100),author varchar2(150),pub_year varchar2(10),download_link varchar2(1000),read_link varchar2(1000));
+{
+	Sample Data:
+		insert into novels values('I Too Had a Love Story','English','Ravinder Singh','2008','https://drive.google.com/open?id=1CXMmyP8VrZdThDH2vpH0KzK1U_9wM2i5','https://drive.google.com/open?id=1CXMmyP8VrZdThDH2vpH0KzK1U_9wM2i5');
+		insert into novels values('Can Love Happen Twice','English','Ravinder Singh','2011','https://drive.google.com/open?id=11R84mUgq0X7dCNE9fZTJ2zqP43ZzsPV9','https://drive.google.com/open?id=11R84mUgq0X7dCNE9fZTJ2zqP43ZzsPV9');
+		insert into novels values('i too had a dream','English','Verghese Kurien','2005','https://drive.google.com/open?id=1K7o6WdwlkdzZ9JSp6cLK-HAQR4vDxFZl','https://drive.google.com/open?id=1K7o6WdwlkdzZ9JSp6cLK-HAQR4vDxFZl');
+		insert into novels values('your dreams are mine','English','Ravinder Singh','2014','https://drive.google.com/open?id=1jMuVxKgyUYeBkQAngsFtEj5FL7dSAI4u','https://drive.google.com/open?id=1jMuVxKgyUYeBkQAngsFtEj5FL7dSAI4u');
+		insert into novels values('strong fathers, strong daughters','English','Meg Meeker','2006','https://drive.google.com/open?id=1h9q5XI56DaDkn-svpD1C2iShyc9P1rTP','https://drive.google.com/open?id=1h9q5XI56DaDkn-svpD1C2iShyc9P1rTP');
+		insert into novels values('solemates','English','Lauren Mackler','2015','https://drive.google.com/open?id=1_jyMAMBJZstz4ZrWVroSOLaIyd9T6nZK','https://drive.google.com/open?id=1_jyMAMBJZstz4ZrWVroSOLaIyd9T6nZK');
+		insert into novels values('chadurangada mane','	Kannada','Ta Ra Su','1960','https://drive.google.com/open?id=1Gl6yajOvNud7kDqLcBIrJtXR_EggF9A0','https://drive.google.com/open?id=1Gl6yajOvNud7kDqLcBIrJtXR_EggF9A0');
+}
+
+Req_novel Table:
+Create table req_novel(novel_name varchar2(99),author varchar2(55),pub_year varchar2(9));
+
+User_Comments Table:
+Create table user_comments(first_name varchar2(99),last_name varchar2(55),country varchar2(99),comments varchar2(500));
